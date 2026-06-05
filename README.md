@@ -29,6 +29,18 @@ Generated files:
 - `reviewer_response_skeleton.md`
 - `figure_table_checklist.md`
 
+### Example 2 — weak vs. moderate support
+
+The second example set demonstrates how claims backed by weak evidence
+differ from claims backed by moderate evidence:
+
+```bash
+python -m paper_pusher.cli examples/claims_2.yaml examples/evidence_2.csv examples/outputs_2
+```
+
+Review the generated `claim_evidence_matrix.md` and `claim_audit_report.md`
+to see how the audit handles each scenario.
+
 ## Development
 
 ```bash
