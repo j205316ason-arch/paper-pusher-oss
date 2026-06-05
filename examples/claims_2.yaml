@@ -1,0 +1,9 @@
+claims:
+  - id: C3
+    text: "The synthetic survey hints at possible user preference trends."
+    strength: moderate
+    evidence: [E3, E4]
+  - id: C4
+    text: "The controlled dummy experiment shows a measurable difference in checklist accuracy."
+    strength: moderate
+    evidence: [E5, E6]

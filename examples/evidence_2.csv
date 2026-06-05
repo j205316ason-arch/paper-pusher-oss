@@ -1,0 +1,5 @@
+id,summary,support,source
+E3,Anecdotal feedback from two synthetic testers,weak,survey
+E4,Informal notes in a shared notebook,weak,fieldwork
+E5,Controlled comparison of two synthetic approaches,moderate,experiment
+E6,Peer-reviewed checklist cross-validation on dummy data,moderate,analysis
