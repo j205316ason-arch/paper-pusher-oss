@@ -22,12 +22,25 @@ This repository contains only toy examples. It does not include private manuscri
 python -m paper_pusher.cli examples/claims.yaml examples/evidence.csv examples/outputs
 ```
 
+Example terminal output:
+
+```text
+# The command writes Markdown files and exits quietly when successful.
+```
+
 Generated files:
 
 - `claim_evidence_matrix.md`
 - `claim_audit_report.md`
 - `reviewer_response_skeleton.md`
 - `figure_table_checklist.md`
+
+Example audit excerpt:
+
+```text
+- C1: ok - The demo workflow improves traceability for small projects.
+- C2: overstated - The demo proves universal research quality improvement.
+```
 
 ## Development
 
